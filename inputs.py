@@ -11,3 +11,10 @@ elif n == 5:
     print("n is equal to five")
 else:
     print("n is bigger than five")
+
+def add(num1, num2):
+    result = num1 + num2
+    return result
+
+cal1 = add(10, 40)
+print(cal1)
