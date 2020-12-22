@@ -18,3 +18,8 @@ def add(num1, num2):
 
 cal1 = add(10, 40)
 print(cal1)
+
+def say_hello():
+    print("hello")
+
+print(say_hello())
