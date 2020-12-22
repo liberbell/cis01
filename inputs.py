@@ -22,4 +22,4 @@ print(cal1)
 def say_hello():
     print("hello")
 
-print(say_hello())
+say_hello()
