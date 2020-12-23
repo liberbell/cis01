@@ -29,6 +29,8 @@ if picked_fruit == "orange":
     print("The fruit is orange.")
 elif picked_fruit == "strawberry":
     print("The fruit is strawberry.")
+else:
+    print("The fruit is banana.")
 
 
 # TODO: Write a function that multiplies two numbers and returns the result
