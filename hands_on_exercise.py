@@ -28,10 +28,9 @@ print("The fruit is ", picked_fruit)
 
 # TODO: Write a function that multiplies two numbers and returns the result
 # Define the function here.
-def func1(x, y) {
+def func1(x, y):
     result = x * y
     return result
-}
 
 # TODO: Now call the function a few times to calculate the following answers
 
