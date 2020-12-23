@@ -12,6 +12,7 @@ print("pi = ", pi)
 
 # TODO: Write a conditional to print out if `i` is less than or greater than 50
 i = random.randint(0, 100)
+print("i = ", i)
 if i < 50:
     print("i is less than 50")
 elif i == 50:
