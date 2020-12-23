@@ -25,6 +25,11 @@ else:
 picked_fruit = random.choice(['orange', 'strawberry', 'banana'])
 print("The fruit is ", picked_fruit)
 
+if picked_fruit == "orange":
+    print("The fruit is orange.")
+elif picked_fruit == "strawberry":
+    print("The fruit is strawberry.")
+
 
 # TODO: Write a function that multiplies two numbers and returns the result
 # Define the function here.
