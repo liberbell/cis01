@@ -23,6 +23,7 @@ else:
 
 # TODO: Write a conditional that prints the color of the picked fruit
 picked_fruit = random.choice(['orange', 'strawberry', 'banana'])
+print("The fruit is ," picked_fruit)
 
 
 # TODO: Write a function that multiplies two numbers and returns the result
