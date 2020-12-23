@@ -7,3 +7,6 @@ print(l)
 
 l.append("new")
 print(l)
+
+t = ("a", 1, 18.2)
+print(t)
