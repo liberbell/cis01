@@ -13,3 +13,6 @@ for fruit in fruit_inventory:
 
 for fruit in fruit_inventory.items():
     print(fruit)
+
+for fruit, quantity in fruit_inventory.items():
+    print("You have {} {}.".format(quantity, fruit))
