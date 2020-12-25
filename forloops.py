@@ -1,3 +1,5 @@
+from time import sleep
+
 for i in range(5):
     print(i)
     # i += 1 
@@ -21,3 +23,10 @@ i = 0
 while i < 5:
     print(i)
     i += 1
+
+while True:
+    try:
+        print("polling")
+        sleep(1)
+    except KeyboardInterrupt:
+        break
