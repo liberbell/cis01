@@ -16,3 +16,8 @@ for fruit in fruit_inventory.items():
 
 for fruit, quantity in fruit_inventory.items():
     print("You have {} {}.".format(quantity, fruit))
+
+i = 0
+while i < 5:
+    print(i)
+    i += 1
