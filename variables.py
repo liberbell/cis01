@@ -8,3 +8,8 @@ def my_func(argument_variable):
     print(local_variable, "... and I can ONLY accessed inside a function.")
 
 my_func(argument_variable="I am a argument variable.")
+
+print("\nTrying to access local_variable of its function...")
+
+try:
+    print(local_variable)
