@@ -13,3 +13,5 @@ print("\nTrying to access local_variable of its function...")
 
 try:
     print(local_variable)
+except NameError as error:
+    print(error)
